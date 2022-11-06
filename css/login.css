@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #161717;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    width: 450px;
+    
+    
+}
+h3{
+    color: white;
+}
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.google-btn{
+    background-color: #1473e8;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center ;
+    padding: 2px;
+    cursor: pointer;
+}
+.google-btn picture img{
+ width: 100%;
+ border-radius: 5px;
+}
+.google-btn:hover{
+    opacity: 0.75;
+}
+.google-btn picture{
+    width: 33px;
+    background-color: #1473e8;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn span {
+    color: white;
+    font-weight: 500 ;
+    display: flex;
+    flex-direction: column;
+    background-color: #1473e8;
+}
+.twiter-btn{
+    border: none;
+    width: 45px;
+    border-radius: 1px;
+    cursor: pointer;
+    align-items: center;
+}
+.twiter-btn picture img{
+    width: 99%;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    color: gray;
+}
+.twiter-btn:hover{
+    background-color: #454045;
+
+}
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+
+}
+.separator span{
+    color: white;
+
+}
+.section-inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 700;
+    color: white;
+}
+.section-inputs label input {
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, boxshadow 0.2s;
+}
+label input:hover{
+    background-color: #454045;
+    border: solid 1px #212121;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px #212121;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"]{
+    width: 20px;
+}
+.checkbox-label span{
+    font-weight: 400;
+}
+.submit-btn{
+    background-color: #ea4c89;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    font-size: 14;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.submit-btn:hover{
+    opacity: 0.75;
+}
